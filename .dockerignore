@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# Archivos que no hacen falta para servir el modelo
+data/
+train.py
+prepare_dataset.py
+tests/
+*.md
+
+# Control de versiones y secretos
+.git
+.gitignore
+.env
+
+# OJO: models/ NO se ignora, porque contiene model.joblib
